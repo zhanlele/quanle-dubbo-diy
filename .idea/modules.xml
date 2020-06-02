@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/quanle-ip/dubbo-ip-filter/dubbo-ip-filter.iml" filepath="$PROJECT_DIR$/quanle-ip/dubbo-ip-filter/dubbo-ip-filter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/quanle-monitor/dubbo-monitor-filter/dubbo-monitor-filter.iml" filepath="$PROJECT_DIR$/quanle-monitor/dubbo-monitor-filter/dubbo-monitor-filter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/quanle-dubbo-diy.iml" filepath="$PROJECT_DIR$/.idea/quanle-dubbo-diy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/quanle-ip/quanle-ip.iml" filepath="$PROJECT_DIR$/quanle-ip/quanle-ip.iml" />
+      <module fileurl="file://$PROJECT_DIR$/quanle-monitor/quanle-monitor.iml" filepath="$PROJECT_DIR$/quanle-monitor/quanle-monitor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/quanle-ip/service-api/service-api.iml" filepath="$PROJECT_DIR$/quanle-ip/service-api/service-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/quanle-monitor/service-api2/service-api2.iml" filepath="$PROJECT_DIR$/quanle-monitor/service-api2/service-api2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/quanle-monitor/service-consumer/service-consumer.iml" filepath="$PROJECT_DIR$/quanle-monitor/service-consumer/service-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/quanle-monitor/service-provider/service-provider.iml" filepath="$PROJECT_DIR$/quanle-monitor/service-provider/service-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/quanle-ip/service-provider-a/service-provider-a.iml" filepath="$PROJECT_DIR$/quanle-ip/service-provider-a/service-provider-a.iml" />
+      <module fileurl="file://$PROJECT_DIR$/quanle-ip/service-provider-b/service-provider-b.iml" filepath="$PROJECT_DIR$/quanle-ip/service-provider-b/service-provider-b.iml" />
+      <module fileurl="file://$PROJECT_DIR$/quanle-ip/service-web/service-web.iml" filepath="$PROJECT_DIR$/quanle-ip/service-web/service-web.iml" />
+    </modules>
+  </component>
+</project>

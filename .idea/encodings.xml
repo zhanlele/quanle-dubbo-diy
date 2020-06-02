@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/quanle-ip/dubbo-ip-filter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/quanle-ip/dubbo-ip-filter/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/quanle-ip/service-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/quanle-ip/service-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/quanle-ip/service-provider-a/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/quanle-ip/service-provider-a/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/quanle-ip/service-provider-b/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/quanle-ip/service-provider-b/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/quanle-ip/service-web/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/quanle-ip/service-web/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/quanle-ip/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/quanle-ip/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/quanle-monitor/dubbo-monitor-filter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/quanle-monitor/dubbo-monitor-filter/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/quanle-monitor/service-api2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/quanle-monitor/service-api2/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/quanle-monitor/service-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/quanle-monitor/service-consumer/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/quanle-monitor/service-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/quanle-monitor/service-provider/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/quanle-monitor/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/quanle-monitor/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,13 @@
+server:
+  port: 8088
+
+dubbo:
+  application:
+    name: service-consumer
+  registry:
+    address: zookeeper://192.168.3.5:2181
+    timeout: 3000
+  protocol:
+    port: 20885
+    name: dubbo
+
