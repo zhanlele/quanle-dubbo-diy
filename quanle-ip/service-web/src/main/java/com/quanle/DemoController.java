@@ -20,7 +20,7 @@ import javax.servlet.http.HttpServletRequest;
 @RestController
 @RequestMapping("/")
 public class DemoController {
-    @Reference
+    @Reference(check = false,loadbalance = "roundrobin")
     private HelloService helloService;
 
     @RequestMapping()

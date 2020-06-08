@@ -11,7 +11,7 @@ import org.springframework.context.annotation.PropertySource;
  * @author quanle
  * @date 2020/6/2 9:31 PM
  */
-public class DubboPureMain {
+public class DubboPureMain2 {
     public static void main(String[] args) throws Exception {
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(ProviderConfiguration.class);
         context.start();
@@ -20,7 +20,7 @@ public class DubboPureMain {
 
     @Configuration
     @EnableDubbo(scanBasePackages = "com.quanle.service.impl")
-    @PropertySource("classpath:/dubbo-provider.properties")
+    @PropertySource("classpath:/dubbo-provider2.properties")
     static class ProviderConfiguration {
         @Bean
         public RegistryConfig registryConfig() {
@@ -29,22 +29,22 @@ public class DubboPureMain {
             return registryConfig;
         }
 
-        /*@Bean
-        public ApplicationConfig applicationConfig() {
-            ApplicationConfig applicationConfig = new ApplicationConfig();
-            applicationConfig.setName("dubbo-demo-annotation-provider");
-            applicationConfig.setQosEnable(true);
-            applicationConfig.setQosAcceptForeignIp(false);
-            applicationConfig.setQosPort(8002);
-            return applicationConfig;
-        }
-
-        @Bean
-        public ProtocolConfig protocolConfig() {
-            ProtocolConfig protocolConfig = new ProtocolConfig();
-            protocolConfig.setName("dubbo");
-            protocolConfig.setPort(20881);
-            return protocolConfig;
-        }*/
+//        @Bean
+//        public ApplicationConfig applicationConfig() {
+//            ApplicationConfig applicationConfig = new ApplicationConfig();
+//            applicationConfig.setName("dubbo-demo-annotation-provider");
+//            applicationConfig.setQosEnable(true);
+//            applicationConfig.setQosAcceptForeignIp(false);
+//            applicationConfig.setQosPort(8002);
+//            return applicationConfig;
+//        }
+//
+//        @Bean
+//        public ProtocolConfig protocolConfig() {
+//            ProtocolConfig protocolConfig = new ProtocolConfig();
+//            protocolConfig.setName("dubbo");
+//            protocolConfig.setPort(20881);
+//            return protocolConfig;
+//        }
     }
 }

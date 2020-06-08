@@ -16,7 +16,7 @@ public class HelloServiceImpl implements HelloService {
     @Override
     public String sayHello(String name) {
         String ip = RpcContext.getContext().getAttachment(ServiceConstants.IP_KEY);
-        System.out.println("服务请求IP:" + ip);
-        return "hello serviceA:" + name;
+        System.out.println("A3服务请求IP:" + ip);
+        return "hello serviceA3:" + name;
     }
 }

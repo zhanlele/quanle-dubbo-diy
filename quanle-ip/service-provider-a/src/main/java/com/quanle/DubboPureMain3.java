@@ -11,7 +11,7 @@ import org.springframework.context.annotation.PropertySource;
  * @author quanle
  * @date 2020/6/2 9:31 PM
  */
-public class DubboPureMain {
+public class DubboPureMain3 {
     public static void main(String[] args) throws Exception {
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(ProviderConfiguration.class);
         context.start();
@@ -20,7 +20,7 @@ public class DubboPureMain {
 
     @Configuration
     @EnableDubbo(scanBasePackages = "com.quanle.service.impl")
-    @PropertySource("classpath:/dubbo-provider.properties")
+    @PropertySource("classpath:/dubbo-provider3.properties")
     static class ProviderConfiguration {
         @Bean
         public RegistryConfig registryConfig() {
